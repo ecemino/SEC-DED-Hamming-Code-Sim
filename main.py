@@ -125,6 +125,7 @@ def is_valid_binary(data):
     return data.isdigit() and set(data).issubset({'0', '1'}) and len(data) in {8, 16, 32}
 
 
+1100011001011101
 def generate_hamming():
     data = input_entry.get()
 
@@ -193,7 +194,7 @@ def read_and_corrupt():
 # GUI penceresi
 
 root = tk.Tk()
-root.title("Hamming SEC-DED Tool")
+root.title("Hamming SEC-DED Simulator")
 root.geometry("800x600")
 
 tk.Label(root, text="Enter 8/16/32-bit Binary Data:").pack()
