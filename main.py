@@ -204,7 +204,7 @@ gen_button = tk.Button(root, text="Save to Memory", command=generate_hamming)
 gen_button.pack(pady=5)
 
 # okunacak memory şndeksi girme bloğu
-tk.Label(root, text="\nMemory Index to Read:").pack()
+tk.Label(root, text="\nSelect Memory Index:").pack()
 memory_index_entry = tk.Entry(root, width=5)
 memory_index_entry.pack()
 memory_index_entry.insert(0, "0")
