@@ -124,8 +124,6 @@ memory = []
 def is_valid_binary(data):
     return data.isdigit() and set(data).issubset({'0', '1'}) and len(data) in {8, 16, 32}
 
-
-1100011001011101
 def generate_hamming():
     data = input_entry.get()
 
